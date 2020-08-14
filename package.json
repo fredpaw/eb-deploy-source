@@ -1,0 +1,22 @@
+{
+  "name": "eb-deploy-node-container",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --forceExit --coverage --verbose",
+    "watch-test": "npm run test -- --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^26.4.0",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "testcafe": "^1.9.1"
+  }
+}
